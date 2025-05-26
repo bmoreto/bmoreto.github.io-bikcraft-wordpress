@@ -1,5 +1,6 @@
 /*Estilo para tablets*/
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+@media (min-width: 768px){
 
 /*Qualidade Home*/
 .qualidade:after {
@@ -50,12 +51,13 @@
 } /* Final do estilo para tablets */
 
 /*Estilo para smartphone*/
-@media only screen and (max-width: 767px) {
+@media (max-width: 768px) {
 
 /*Header*/
 .header {
 	position: relative;
 	padding-bottom: 0px;
+	background: red;
 }
 
 .header img {
@@ -94,7 +96,7 @@
 .introducao {
 	margin-top: 0px;
 	padding-top: 40px;
-	background: url("../img/bg-mobile.jpg") no-repeat center;
+	background: url("/img/bg-mobile.jpg") no-repeat center;
 	background-size: cover;
 }
 
