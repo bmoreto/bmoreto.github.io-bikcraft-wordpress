@@ -10,17 +10,13 @@
 
 		<section class="missao_sobre container animar-interno">
 			<div class="grid-10">
-				<h2 class="subtitulo-interno">História, Missão e Visão</h2>
-				<p>Quando iniciamos a Bikcraft queriamos apenas um produto que adoraríamos utilizar. Eramos apaixonados por pedalar e também por fazer as coisas com as nossas próprias mãos. Assim surgiu um sonho na garagem da nossa casa.</p>
-				<p>Conheça os nossos produtos, pergunte para os nossos clientes e descubra a maravilha de ter uma Bikcraft na sua casa.</p>
+				<h2 class="subtitulo-interno"><?php the_field('subtitulo_interno1'); ?></h2>
+				<p><?php the_field('texto_subtitulo_interno1'); ?></p>
 			</div>
 			<div class="grid-6">
-				<h2 class="subtitulo-interno">Valores</h2>
+				<h2 class="subtitulo-interno"><?php the_field('subtitulo_interno_2'); ?></h2>
 				<ul>
-					<li>- Qualidade no processo com</li>
-					<li>- Foco no cliente sem perder a</li>
-					<li>- Diversão, preservando a</li>
-					<li>- Natureza com sustentabilidade</li>
+					<li><?php the_field('texto_subtitulo_interno2'); ?></li>
 				</ul>
 			</div>
 
